@@ -1,0 +1,79 @@
+{# https://mozilla.github.io/nunjucks/templating.html#template-inheritance #}
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Die offiziele Homepage des Förderverein First Responder in der Gemeinde Berg e. V.">
+        <meta name="author" content="theexiile1305">
+        <title>Förderverein First Responder in der Gemeinde Berg e. V.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        <meta name="theme-color" content="#000000"/>
+        <link rel="icon" href="../img/favicon.png">
+        <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+        <link rel="stylesheet" href="../sass/main.scss">
+    </head>
+    <body>
+        <header id="header" class="fixed-top d-flex align-items-center">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="logo">
+                    <h1>
+                        <a href="/index.njk">FFRGB e.V.</a>
+                    </h1>
+                </div>
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li>
+                            <a class="nav-link scrollto active" href="/index.njk#hero">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="/index.njk#about">Über Uns</a>
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="/index.njk#services">Aufgaben</a>
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto " href="/index.njk#features">Fortbildungen</a>
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="/index.njk#contact">Kontakt</a>
+                        </li>
+                        <li>
+                            <a class="getstarted scrollto" href="https://www.ff-agent.com/app/secure/login">Intern</a>
+                        </li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+            </div>
+        </header>
+
+        {% block main %}Main{% endblock %}
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 text-lg-left text-center">
+                        <div class="copyright">
+                            &copy; 2021 Michael Fuchs. All Rights Reserved.
+                        </div>
+                        <div class="credits">
+                            Powered by <a href="https://parceljs.org/">parceljs</a> - Please report issues on <a href="https://github.com/ffrgbev/website/issues/">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+                            <a href="#intro" class="scrollto">Home</a>
+                            <a href="/impressum.njk">Impressum</a>
+                            <a href="/privacy.njk">Datenschutzerklärung</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <script src="../js/main.js"></script>
+    </body>
+</html>
