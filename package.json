@@ -18,13 +18,13 @@
     "ev-emitter": "^2.1.0",
     "fizzy-ui-utils": "^3.0.0",
     "get-size": "^2.0.3",
-    "glightbox": "^3.0.7",
+    "glightbox": "^3.0.8",
     "jquery": "^3.6.0",
     "masonry-layout": "^4.2.2",
     "normalize.css": "^8.0.1",
     "outlayer": "^2.1.1",
     "remixicon": "^2.5.0",
-    "swiper": "^6.5.3"
+    "swiper": "^6.5.6"
   },
   "devDependencies": {
     "nunjucks": "^3.2.2",
