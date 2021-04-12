@@ -2764,10 +2764,10 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-glightbox@^3.0.7:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/glightbox/-/glightbox-3.0.7.tgz#f0fdb6213c285a416cba07046d822eb0c6223a2c"
-  integrity sha512-TIaB7UQi+6Aa15jrnDRcliDx2Z3nPzO6u+DSwJV6E2scCR9KUs1zAc+m/PDp+BmPnmPN+rqxKxUwYURyjfO+gw==
+glightbox@^3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/glightbox/-/glightbox-3.0.8.tgz#2ac153ae66c41412694a945e8372ab86adbaf8fc"
+  integrity sha512-b+IywITiEW4/rKey4sYcH7jCEgvsYpak2SUruxDiLkrtddDYJjuN9U7EQ0ToTKZNuFgmkn+zgYyKL/0sjgDJOQ==
 
 glob-parent@^3.1.0:
   version "3.1.0"
@@ -5719,10 +5719,10 @@ svgo@^1.0.0, svgo@^1.3.2:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-swiper@^6.5.3:
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/swiper/-/swiper-6.5.3.tgz#ff42617dd87277bd0f622c729572d3db47bee225"
-  integrity sha512-WsRKA/il3cHkpHFivvQCEFsgo9eYgvKpHBrgNsLCENyuG1z3E8Rc6zFMEioy5NDQI0BztR3r5UyMqBZyqs9u8Q==
+swiper@^6.5.6:
+  version "6.5.6"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-6.5.6.tgz#4d1dc5cd124696dd765818f2484a1ec8e0d3d3bc"
+  integrity sha512-oKVshbF0vhdMFJXtcNH8vLpmyCHc7VvvIlOUafyazzlYzCRJmI80FxoIBWKzSqDyy8EXRn7Iy78p9o4I1Bww/Q==
   dependencies:
     dom7 "^3.0.0"
     ssr-window "^3.0.0"
