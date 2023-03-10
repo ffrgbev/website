@@ -1,6 +1,6 @@
-import config from "@config/config.json";
-import Banner from "./components/Banner";
-import ImageFallback from "./components/ImageFallback";
+import config from "config/config.json";
+import Banner from "layouts/components/Banner";
+import ImageFallback from "layouts/components/ImageFallback";
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;

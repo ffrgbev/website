@@ -1,6 +1,6 @@
-import shortcodes from "@shortcodes/all";
+import shortcodes from "layouts/shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
-import Banner from "./components/Banner";
+import Banner from "layouts/components/Banner";
 
 const Default = ({ data }) => {
   const { frontmatter, mdxContent } = data;

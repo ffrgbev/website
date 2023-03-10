@@ -1,9 +1,9 @@
-import { gsap } from "@lib/gsap";
-import { markdownify } from "@lib/utils/textConverter";
+import { gsap } from "lib/gsap";
+import { markdownify } from "lib/utils/textConverter";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import Circle from "./Circle";
-import ImageFallback from "./ImageFallback";
+import Circle from "layouts/components/Circle";
+import ImageFallback from "layouts/components/ImageFallback";
 
 const Banner = ({ title }) => {
   const banner = useRef(null);

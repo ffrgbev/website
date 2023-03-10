@@ -1,7 +1,7 @@
-import config from "@config/config.json";
-import ImageFallback from "@layouts/components/ImageFallback";
-import dateFormat from "@lib/utils/dateFormat";
-import readingTime from "@lib/utils/readingTime";
+import config from "config/config.json";
+import ImageFallback from "layouts/components/ImageFallback";
+import dateFormat from "lib/utils/dateFormat";
+import readingTime from "lib/utils/readingTime";
 import Link from "next/link";
 
 const Post = ({ post, i }) => {

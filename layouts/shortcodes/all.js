@@ -1,12 +1,12 @@
-import Accordion from "./Accordion";
-import Blockquote from "./Blockquote";
-import Button from "./Button";
-import Code from "./Code";
-import Notice from "./Notice";
-import Tab from "./Tab";
-import Tabs from "./Tabs";
-import Video from "./Video";
-import Youtube from "./Youtube";
+import Accordion from "layouts/shortcodes/Accordion";
+import Blockquote from "layouts/shortcodes/Blockquote";
+import Button from "layouts/shortcodes/Button";
+import Code from "layouts/shortcodes/Code";
+import Notice from "layouts/shortcodes/Notice";
+import Tab from "layouts/shortcodes/Tab";
+import Tabs from "layouts/shortcodes/Tabs";
+import Video from "layouts/shortcodes/Video";
+import Youtube from "layouts/shortcodes/Youtube";
 
 const shortcodes = {
   Button,

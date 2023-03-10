@@ -1,5 +1,5 @@
-import ImageFallback from "@components/ImageFallback";
-import config from "@config/config.json";
+import ImageFallback from "layouts/components/ImageFallback";
+import config from "config/config.json";
 import Link from "next/link";
 
 const Logo = ({ src }) => {
