@@ -1,22 +1,18 @@
-import config from "config/config.json";
 import { markdownify } from "lib/utils/textConverter";
 import Link from "next/link";
 import Circle from "layouts/components/Circle";
 import ImageFallback from "layouts/components/ImageFallback";
 
 function Cta() {
-  const { title, content, button, enable } = config.call_to_action;
-  if (!enable) return;
-
   return (
     <section className="cta section pt-0">
       <div className="container-xl">
         <div className="section relative px-4 text-center">
           <div className="animate">
-            {markdownify(title, "h2", "section-title")}
-            {markdownify(content, "p", "mt-10")}
-            <Link href={button.link} className="btn btn-primary mt-10">
-              {button.label}
+            {markdownify("Get Andromeda Now", "h2", "section-title")}
+            {markdownify("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.", "p", "mt-10")}
+            <Link href="https://themefisher.com/products/andromeda-light-nextjs" className="btn btn-primary mt-10">
+            Download The Theme
             </Link>
           </div>
           <div className="bg-theme animated-bg absolute top-0 left-0 w-full after:hidden">

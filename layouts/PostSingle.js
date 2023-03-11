@@ -1,4 +1,3 @@
-import config from "config/config.json";
 import Base from "layouts/Baseof";
 import dateFormat from "lib/utils/dateFormat";
 import readingTime from "lib/utils/readingTime";
@@ -14,8 +13,6 @@ import Post from "layouts/partials/Post";
 const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
   let { description, title, date, image, author } = frontmatter;
   description = description ? description : content.slice(0, 120);
-
-  const { disqus } = config;
 
   return (
     <Base title={title} description={description}>
@@ -57,16 +54,14 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
                   <MDXRemote {...mdxContent} components={shortcodes} />
                 </div>
               </div>
-              {disqus.enable && (
-                <div className="fade row justify-center opacity-0">
-                  <div className="lg:col-8">
-                    <DiscussionEmbed
-                      shortname={disqus.shortname}
-                      config={disqus.settings}
-                    />
-                  </div>
+              (<div className="fade row justify-center opacity-0">
+                <div className="lg:col-8">
+                  <DiscussionEmbed
+                    shortname= "themefisher-template"
+                    config={{}}
+                  />
                 </div>
-              )}
+              </div>
             </div>
           </article>
 

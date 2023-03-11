@@ -1,9 +1,7 @@
-import config from "@config/config.json";
-import PostSingle from "@layouts/PostSingle";
-import { getSinglePage } from "@lib/contentParser";
-import parseMDX from "@lib/utils/mdxParser";
-import { sortByDate } from "@lib/utils/sortFunctions";
-const { blog_folder } = config.settings;
+import PostSingle from "layouts/PostSingle";
+import { getSinglePage } from "lib/contentParser";
+import parseMDX from "lib/utils/mdxParser";
+import { sortByDate } from "lib/utils/sortFunctions";
 
 // post single layout
 const Article = ({ post, authors, mdxContent, slug, recentPosts }) => {
@@ -23,7 +21,7 @@ const Article = ({ post, authors, mdxContent, slug, recentPosts }) => {
 
 // get post single slug
 export const getStaticPaths = () => {
-  const allSlug = getSinglePage(`content/${blog_folder}`);
+  const allSlug = getSinglePage('content/posts');
   const paths = allSlug.map((item) => ({
     params: {
       single: item.slug,
@@ -39,7 +37,7 @@ export const getStaticPaths = () => {
 // get post single content
 export const getStaticProps = async ({ params }) => {
   const { single } = params;
-  const posts = getSinglePage(`content/${blog_folder}`);
+  const posts = getSinglePage('content/posts');
   const post = posts.filter((p) => p.slug == single);
   const mdxContent = await parseMDX(post[0].content);
   const recentPosts = sortByDate(posts).filter((post) => post.slug !== single);

@@ -1,13 +1,11 @@
-import Pagination from "@components/Pagination";
-import config from "@config/config.json";
-import Base from "@layouts/Baseof";
-import Banner from "@layouts/components/Banner";
-import Cta from "@layouts/components/Cta";
-import { getListPage, getSinglePage } from "@lib/contentParser";
-import { gsap } from "@lib/gsap";
-import Post from "@partials/Post";
+import Pagination from "layouts/components/Pagination";
+import Base from "layouts/Baseof";
+import Banner from "layouts/components/Banner";
+import Cta from "layouts/components/Cta";
+import { getListPage, getSinglePage } from "lib/contentParser";
+import { gsap } from "lib/gsap";
+import Post from "layouts/partials/Post";
 import { useEffect, useRef } from "react";
-const { blog_folder } = config.settings;
 
 // blog pagination
 const BlogPagination = ({
@@ -52,7 +50,7 @@ const BlogPagination = ({
             ))}
           </div>
           <Pagination
-            section={blog_folder}
+            section="posts"
             totalPages={totalPages}
             currentPage={currentPage}
           />
@@ -68,10 +66,9 @@ export default BlogPagination;
 
 // get blog pagination slug
 export const getStaticPaths = () => {
-  const getAllSlug = getSinglePage(`content/${blog_folder}`);
+  const getAllSlug = getSinglePage('content/posts');
   const allSlug = getAllSlug.map((item) => item.slug);
-  const { pagination } = config.settings;
-  const totalPages = Math.ceil(allSlug.length / pagination);
+  const totalPages = Math.ceil(allSlug.length / 6);
   let paths = [];
 
   for (let i = 1; i < totalPages; i++) {
@@ -91,13 +88,12 @@ export const getStaticPaths = () => {
 // get blog pagination content
 export const getStaticProps = async ({ params }) => {
   const currentPage = parseInt((params && params.slug) || 1);
-  const { pagination } = config.settings;
-  const posts = getSinglePage(`content/${blog_folder}`);
-  const postIndex = await getListPage(`content/${blog_folder}/_index.md`);
+  const posts = getSinglePage('content/posts');
+  const postIndex = await getListPage(`content/posts/_index.md`);
 
   return {
     props: {
-      pagination: pagination,
+      pagination: 6,
       posts: posts,
       currentPage: currentPage,
       postIndex: postIndex,

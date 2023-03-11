@@ -1,7 +1,5 @@
-const theme = require("./config/theme.json");
-
-let font_base = Number(theme.fonts.font_size.base.replace("px", ""));
-let font_scale = Number(theme.fonts.font_size.scale);
+let font_base = Number("16".replace("px", ""));
+let font_scale = Number("1.246");
 let h6 = font_base / font_base;
 let h5 = h6 * font_scale;
 let h4 = h5 * font_scale;
@@ -9,17 +7,17 @@ let h3 = h4 * font_scale;
 let h2 = h3 * font_scale;
 let h1 = h2 * font_scale;
 let fontPrimary, fontPrimaryType, fontSecondary, fontSecondaryType;
-if (theme.fonts.font_family.primary) {
-  fontPrimary = theme.fonts.font_family.primary
+if ("Poppins:wght@400;500;600;700") {
+  fontPrimary = "Poppins:wght@400;500;600;700"
     .replace(/\+/g, " ")
     .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
-  fontPrimaryType = theme.fonts.font_family.primary_type;
+  fontPrimaryType = "sans-serif";
 }
-if (theme.fonts.font_family.secondary) {
-  fontSecondary = theme.fonts.font_family.secondary
+if ("") {
+  fontSecondary = ""
     .replace(/\+/g, " ")
     .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
-  fontSecondaryType = theme.fonts.font_family.secondary_type;
+  fontSecondaryType = "";
 }
 
 /** @type {import('tailwindcss').Config} */
@@ -43,15 +41,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        text: theme.colors.default.text_color.default,
-        light: theme.colors.default.text_color.light,
-        dark: theme.colors.default.text_color.dark,
-        primary: theme.colors.default.theme_color.primary,
-        body: theme.colors.default.theme_color.body,
-        border: theme.colors.default.theme_color.border,
-        "border-secondary": theme.colors.default.theme_color.border_secondary,
-        "theme-light": theme.colors.default.theme_color.theme_light,
-        "theme-dark": theme.colors.default.theme_color.theme_dark,
+        text: "#666",
+        light: "#ceced0",
+        dark: "#222",
+        primary: "#fe6019",
+        body: "#ffff",
+        border: "#dee2e6",
+        "border-secondary": "#ffece4",
+        "theme-light": "#fffaf3",
+        "theme-dark": "#1a202c",
       },
       fontSize: {
         base: font_base + "px",

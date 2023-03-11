@@ -1,5 +1,3 @@
-import config from "config/config.json";
-import theme from "config/theme.json";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
@@ -7,8 +5,8 @@ import "styles/style.scss";
 
 const App = ({ Component, pageProps }) => {
   // import google font css
-  const pf = theme.fonts.font_family.primary;
-  const sf = theme.fonts.font_family.secondary;
+  const pf = "Poppins:wght@400;500;600;700";
+  const sf = "";
   const [fontcss, setFontcss] = useState();
   useEffect(() => {
     fetch(
@@ -20,13 +18,11 @@ const App = ({ Component, pageProps }) => {
 
   // google tag manager (gtm)
   const tagManagerArgs = {
-    gtmId: config.params.tag_manager_id,
+    gtmId: "",
   };
   useEffect(() => {
     setTimeout(() => {
-      process.env.NODE_ENV === "production" &&
-        config.params.tag_manager_id &&
-        TagManager.initialize(tagManagerArgs);
+      process.env.NODE_ENV === "production" && "" && TagManager.initialize(tagManagerArgs);
     }, 5000);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
