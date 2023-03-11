@@ -65,8 +65,8 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <Link
-                href="/blog"
-                className={`nav-link block ${asPath === "/blog" && "active"}`}
+                href="/posts"
+                className={`nav-link block ${asPath === "/posts" && "active"}`}
               >
                 Blog
               </Link>
