@@ -10,7 +10,7 @@ import FeatherIcon from "feather-icons-react/build/FeatherIcon";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { TbQuote } from "react-icons/tb";
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
