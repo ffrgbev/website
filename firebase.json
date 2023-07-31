@@ -15,7 +15,7 @@
                 "headers" : [
                     { 
                         "key": "Content-Security-Policy",
-                        "value": "base-uri 'self'; default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self'; img-src 'self' data:; media-src 'none'; font-src 'self' data: fonts.googleapis.com; connect-src 'self' fonts.googleapis.com; worker-src 'none'; frame-src 'none'; form-action 'none'; frame-ancestors;"
+                        "value": "base-uri 'self'; default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self'; img-src 'self' data:; media-src 'none'; font-src 'self' data: fonts.gstatic.com; connect-src 'self' fonts.googleapis.com; worker-src 'none'; frame-src 'none'; form-action 'none'; frame-ancestors;"
                     },
                     {
                         "key": "X-Frame-Options",
