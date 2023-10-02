@@ -36,7 +36,7 @@
     "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.0",
     "eslint": "8.50.0",
-    "eslint-config-next": "13.4.19",
+    "eslint-config-next": "13.5.3",
     "jshint": "^2.13.6",
     "postcss": "^8.4.29",
     "prettier": "^3.0.3",
