@@ -4477,10 +4477,10 @@ synckit@^0.8.4:
     "@pkgr/utils" "^2.3.1"
     tslib "^2.5.0"
 
-tailwind-bootstrap-grid@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/tailwind-bootstrap-grid/-/tailwind-bootstrap-grid-5.0.1.tgz#aaff94eb425570e93132be7ef0e603a072d9eb5f"
-  integrity sha512-E0ykAhMUIZxXEx3B+5OriGYQzLLjRxmrYc3mSV6UOp1J6b93gKlmUGvlsR7A6QciRcKsORGfC69rXBX3x+3JhQ==
+tailwind-bootstrap-grid@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/tailwind-bootstrap-grid/-/tailwind-bootstrap-grid-5.1.0.tgz#28684a57b2f6d44109a2caddf0c328ad0dc4bc6c"
+  integrity sha512-B++VQUxYyBdOV8M+LCGb1SJaESX/SqFZbbY9mOK5YNiVS2htR83m6RPOppWApSGPK19xSWxzFt/jPUXGfWCa7w==
   dependencies:
     joi "^17.5.0"
     picocolors "^1.0.0"
