@@ -40,7 +40,7 @@
     "jshint": "^2.13.6",
     "postcss": "^8.4.32",
     "prettier": "^3.1.1",
-    "prettier-plugin-tailwindcss": "^0.5.9",
+    "prettier-plugin-tailwindcss": "^0.5.10",
     "sass": "^1.69.6",
     "sharp": "^0.33.1",
     "tailwind-bootstrap-grid": "^5.1.0",
