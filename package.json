@@ -34,7 +34,7 @@
     "@tailwindcss/typography": "^0.5.12",
     "autoprefixer": "^10.4.19",
     "date-fns": "^3.6.0",
-    "date-fns-tz": "^2.0.0",
+    "date-fns-tz": "^3.0.0",
     "eslint": "8.57.0",
     "eslint-config-next": "14.1.4",
     "jshint": "^2.13.6",
