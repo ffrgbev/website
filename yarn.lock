@@ -1028,10 +1028,10 @@ damerau-levenshtein@^1.0.8:
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
 
-date-fns-tz@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/date-fns-tz/-/date-fns-tz-3.0.0.tgz#0559cd6a1aa8eca1d140f1682ad7f0e77429c13e"
-  integrity sha512-YgRowJwvCAAjN1A5F2l1ZjnYKThX7YDq399qo+ThXFpeOqinN1u8SUqfM5IdRQSpai18Iy3EBMb6/CXTSnDstg==
+date-fns-tz@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/date-fns-tz/-/date-fns-tz-3.0.1.tgz#9e22ca9226126b757fd00a375797f5d89713c207"
+  integrity sha512-LGKFMKEllm9tCirgYhha3rqfw5nstTULXnKKCk2qO/qju1rfxpUI9IXzmpOd5w727TtrfenAVafql0B/vs6aQQ==
   dependencies:
     lodash.clonedeep "^4.5.0"
 
