@@ -3,8 +3,8 @@ banner:
   title: "Herzlich Willkommen beim Förderverein First Responder in der Gemeinde Berg e. V."
   image: /images/welcome.jpeg
   link:
-    label: Jetzt Spenden via PayPal
-    href: "https://www.paypal.com/donate/?hosted_button_id=JEQAM8GA9SDPA"
+    label: Jetzt Tickets sichern für das Jubiläum des FFRGBeV mit den BR Brettl-Spitzen LIVE live sichern!
+    href: "https://tickets.ffrgb.de/jubilaeum"
 
 ##brands
 brands:
