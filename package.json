@@ -13,7 +13,7 @@
     "feather-icons-react": "^0.7.1",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
-    "gsap": "^3.12.5",
+    "gsap": "^3.12.7",
     "marked": "^15.0.6",
     "next": "15.1.6",
     "next-mdx-remote": "^5.0.0",
