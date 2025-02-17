@@ -39,7 +39,7 @@
     "eslint-config-next": "15.1.6",
     "jshint": "^2.13.6",
     "postcss": "^8.5.1",
-    "prettier": "^3.5.0",
+    "prettier": "^3.5.1",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "sass": "^1.84.0",
     "sharp": "^0.33.5",
