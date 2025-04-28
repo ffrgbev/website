@@ -2,7 +2,6 @@ import Base from "@layouts/Baseof";
 import Circle from "@layouts/components/Circle";
 import Cta from "@layouts/components/Cta";
 import ImageFallback from "@layouts/components/ImageFallback";
-import VideoPopup from "@layouts/components/VideoPopup";
 import { getListPage } from "@lib/contentParser";
 import { gsap } from "@lib/gsap";
 import { markdownify } from "@lib/utils/textConverter";
@@ -289,9 +288,6 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 <p>{intro.subtitle}</p>
                 {markdownify(intro.title, "h2", "mt-4 section-title")}
                 {markdownify(intro.description, "p", "mt-10")}
-              </div>
-              <div className="mx-auto mt-10 h-full max-h-[394px] w-full max-w-[716px]">
-                <VideoPopup id={intro.video_id} thumbnail={intro.thumbnail} />
               </div>
             </div>
             <div className="bg-theme absolute top-0 left-0 w-full">
