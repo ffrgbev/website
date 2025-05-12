@@ -2275,10 +2275,10 @@ fault@^1.0.0:
   dependencies:
     format "^0.2.0"
 
-feather-icons-react@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/feather-icons-react/-/feather-icons-react-0.8.1.tgz#ff7ce13900b6dfabfe1e5d287ed4315951b03fa8"
-  integrity sha512-3qGHyiVpUaIyNOFehqQ/bEFLDFXezWWt250g1gJfKokffuVaLt0P+es8kddf+SaxA0qqiK7tt/uxvFXjDscDKw==
+feather-icons-react@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/feather-icons-react/-/feather-icons-react-0.9.0.tgz#0326089f74869ffaad11cca1a9e72cb28ca486c3"
+  integrity sha512-JlWj9XAGL2RgoZpqTNCsLhDYdjoMU1Gd7bzKjrfjb/GqSaB+/MbHy4GVzi/VP/Y85Tlcq/7rdMBew6NNov78WA==
 
 file-entry-cache@^8.0.0:
   version "8.0.0"
