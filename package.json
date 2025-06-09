@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.7",
+    "@tailwindcss/postcss": "^4.1.8",
     "disqus-react": "^1.1.6",
     "feather-icons-react": "^0.9.0",
     "github-slugger": "^2.0.0",
