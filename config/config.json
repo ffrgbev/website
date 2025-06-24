@@ -43,11 +43,11 @@
 
   "call_to_action": {
     "enable": true,
-    "title": "Feiern Sie mit uns das Jubiläum des FFRGBeV!",
-    "content": "Sichern Sie sich jetzt Ihre Tickets für die <strong>legendären Brettl-Spitzen</strong> mit dem <strong>Programm BR Brettl-Spitzen LIVE</strong> und erleben Sie bayerisches Kabarett und Musik auf höchstem Niveau. Freuen Sie sich auf einen unvergesslichen Abend voller Humor, Musik und traditioneller Unterhaltung.<br><br>Zu diesem besonderen Anlass gibt es <strong>frisch gezapftes Augustiner vom Holzfass</strong>, einen <strong>Barbetrieb</strong> und <strong>köstliche Speisen</strong> von der <strong>lokalen Metzgerei Wittur</strong>.",
+    "title": "Unterstütze den First Responder jetzt",
+    "content": "Helfen Sie Helfern und sichern Sie die Rettungsmittel und deren Einsatzbereitschaft in der Gemeinde Berg. <br> Spenden Sie jetzt via PayPal oder überweisen Sie direkt auf unser Konto. Sie können auch gerne Mitglied im Förderverein werden.",
     "button": {
-      "label": "Jetzt Tickets sichern und dabei sein!",
-      "link": "https://tickets.ffrgb.de/jubilaeum"
+      "label": "Jetzt Spenden via PayPal",
+      "link": "https://www.paypal.com/donate/?hosted_button_id=JEQAM8GA9SDPA"
     }
   },
 
