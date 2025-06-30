@@ -45,7 +45,7 @@ importers:
         specifier: ^5.5.0
         version: 5.5.0(react@19.1.0)
       react-lite-youtube-embed:
-        specifier: ^2.4.0
+        specifier: ^2.5.1
         version: 2.5.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-lite-yt-embed:
         specifier: ^1.2.7
