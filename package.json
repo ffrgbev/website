@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "disqus-react": "^1.1.6",
+    "disqus-react": "^1.1.7",
     "feather-icons-react": "^0.9.0",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
