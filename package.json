@@ -23,7 +23,7 @@
     "react-icons": "^5.5.0",
     "react-lite-youtube-embed": "^2.4.0",
     "react-lite-yt-embed": "^1.2.7",
-    "react-syntax-highlighter": "^15.6.1",
+    "react-syntax-highlighter": "^15.6.3",
     "react-visibility-sensor": "^5.1.1",
     "rehype-slug": "^6.0.0",
     "remark-gfm": "^4.0.1",
