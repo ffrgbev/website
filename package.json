@@ -21,7 +21,7 @@
     "react-dom": "19.2.1",
     "react-gtm-module": "^2.0.11",
     "react-icons": "^5.5.0",
-    "react-lite-youtube-embed": "^3.3.3",
+    "react-lite-youtube-embed": "^3.5.0",
     "react-lite-yt-embed": "^1.2.7",
     "react-syntax-highlighter": "^16.1.0",
     "react-visibility-sensor": "^5.1.1",
