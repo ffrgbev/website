@@ -10,10 +10,10 @@ importers:
     dependencies:
       disqus-react:
         specifier: 1.1.7
-        version: 1.1.7(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 1.1.7(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       feather-icons-react:
         specifier: 1.0.0
-        version: 1.0.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 1.0.0(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       github-slugger:
         specifier: 2.0.0
         version: 2.0.0
@@ -28,34 +28,34 @@ importers:
         version: 18.0.0
       next:
         specifier: 16.2.3
-        version: 16.2.3(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.99.0)
+        version: 16.2.3(@babel/core@7.29.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(sass@1.99.0)
       next-mdx-remote:
         specifier: 6.0.0
-        version: 6.0.0(@types/react@19.2.14)(react@19.2.4)
+        version: 6.0.0(@types/react@19.2.14)(react@19.2.5)
       react:
-        specifier: 19.2.4
-        version: 19.2.4
+        specifier: 19.2.5
+        version: 19.2.5
       react-dom:
-        specifier: 19.2.4
-        version: 19.2.4(react@19.2.4)
+        specifier: 19.2.5
+        version: 19.2.5(react@19.2.5)
       react-gtm-module:
         specifier: 2.0.11
         version: 2.0.11
       react-icons:
         specifier: 5.6.0
-        version: 5.6.0(react@19.2.4)
+        version: 5.6.0(react@19.2.5)
       react-lite-youtube-embed:
         specifier: 3.5.1
-        version: 3.5.1(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 3.5.1(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       react-lite-yt-embed:
         specifier: 1.2.7
-        version: 1.2.7(react@19.2.4)
+        version: 1.2.7(react@19.2.5)
       react-syntax-highlighter:
         specifier: 16.1.1
-        version: 16.1.1(react@19.2.4)
+        version: 16.1.1(react@19.2.5)
       react-visibility-sensor:
         specifier: 5.1.1
-        version: 5.1.1(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 5.1.1(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       rehype-slug:
         specifier: 6.0.0
         version: 6.0.0
@@ -2374,10 +2374,10 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@19.2.4:
-    resolution: {integrity: sha512-AXJdLo8kgMbimY95O2aKQqsz2iWi9jMgKJhRBAxECE4IFxfcazB2LmzloIoibJI3C12IlY20+KFaLv+71bUJeQ==}
+  react-dom@19.2.5:
+    resolution: {integrity: sha512-J5bAZz+DXMMwW/wV3xzKke59Af6CHY7G4uYLN1OvBcKEsWOs4pQExj86BBKamxl/Ik5bx9whOrvBlSDfWzgSag==}
     peerDependencies:
-      react: ^19.2.4
+      react: ^19.2.5
 
   react-gtm-module@2.0.11:
     resolution: {integrity: sha512-8gyj4TTxeP7eEyc2QKawEuQoAZdjKvMY4pgWfycGmqGByhs17fR+zEBs0JUDq4US/l+vbTl+6zvUIx27iDo/Vw==}
@@ -2414,8 +2414,8 @@ packages:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
 
-  react@19.2.4:
-    resolution: {integrity: sha512-9nfp2hYpCwOjAN+8TZFGhtWEwgvWHXqESH8qT89AT/lWklpLON22Lc8pEtnpsZz7VmawabSU0gCjnj8aC0euHQ==}
+  react@19.2.5:
+    resolution: {integrity: sha512-llUJLzz1zTUBrskt2pwZgLq59AemifIftw4aB7JxOqf1HY2FDaGDxgwpAPVzHU1kdWabH7FauP4i1oEeer2WCA==}
     engines: {node: '>=0.10.0'}
 
   readable-stream@1.1.14:
@@ -3168,11 +3168,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@mdx-js/react@3.1.1(@types/react@19.2.14)(react@19.2.4)':
+  '@mdx-js/react@3.1.1(@types/react@19.2.14)(react@19.2.5)':
     dependencies:
       '@types/mdx': 2.0.13
       '@types/react': 19.2.14
-      react: 19.2.4
+      react: 19.2.5
 
   '@napi-rs/wasm-runtime@0.2.12':
     dependencies:
@@ -3849,10 +3849,10 @@ snapshots:
     dependencies:
       dequal: 2.0.3
 
-  disqus-react@1.1.7(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  disqus-react@1.1.7(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
     dependencies:
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
+      react: 19.2.5
+      react-dom: 19.2.5(react@19.2.5)
 
   doctrine@2.1.0:
     dependencies:
@@ -4291,10 +4291,10 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.4
 
-  feather-icons-react@1.0.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  feather-icons-react@1.0.0(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
     dependencies:
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
+      react: 19.2.5
+      react-dom: 19.2.5(react@19.2.5)
 
   file-entry-cache@8.0.0:
     dependencies:
@@ -5290,12 +5290,12 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next-mdx-remote@6.0.0(@types/react@19.2.14)(react@19.2.4):
+  next-mdx-remote@6.0.0(@types/react@19.2.14)(react@19.2.5):
     dependencies:
       '@babel/code-frame': 7.29.0
       '@mdx-js/mdx': 3.1.1
-      '@mdx-js/react': 3.1.1(@types/react@19.2.14)(react@19.2.4)
-      react: 19.2.4
+      '@mdx-js/react': 3.1.1(@types/react@19.2.14)(react@19.2.5)
+      react: 19.2.5
       unist-util-remove: 4.0.0
       unist-util-visit: 5.1.0
       vfile: 6.0.3
@@ -5304,16 +5304,16 @@ snapshots:
       - '@types/react'
       - supports-color
 
-  next@16.2.3(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.99.0):
+  next@16.2.3(@babel/core@7.29.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(sass@1.99.0):
     dependencies:
       '@next/env': 16.2.3
       '@swc/helpers': 0.5.15
       baseline-browser-mapping: 2.10.16
       caniuse-lite: 1.0.30001787
       postcss: 8.4.31
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
-      styled-jsx: 5.1.6(@babel/core@7.29.0)(react@19.2.4)
+      react: 19.2.5
+      react-dom: 19.2.5(react@19.2.5)
+      styled-jsx: 5.1.6(@babel/core@7.29.0)(react@19.2.5)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.2.3
       '@next/swc-darwin-x64': 16.2.3
@@ -5481,45 +5481,45 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.2.4(react@19.2.4):
+  react-dom@19.2.5(react@19.2.5):
     dependencies:
-      react: 19.2.4
+      react: 19.2.5
       scheduler: 0.27.0
 
   react-gtm-module@2.0.11: {}
 
-  react-icons@5.6.0(react@19.2.4):
+  react-icons@5.6.0(react@19.2.5):
     dependencies:
-      react: 19.2.4
+      react: 19.2.5
 
   react-is@16.13.1: {}
 
-  react-lite-youtube-embed@3.5.1(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  react-lite-youtube-embed@3.5.1(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
     dependencies:
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
+      react: 19.2.5
+      react-dom: 19.2.5(react@19.2.5)
 
-  react-lite-yt-embed@1.2.7(react@19.2.4):
+  react-lite-yt-embed@1.2.7(react@19.2.5):
     dependencies:
-      react: 19.2.4
+      react: 19.2.5
 
-  react-syntax-highlighter@16.1.1(react@19.2.4):
+  react-syntax-highlighter@16.1.1(react@19.2.5):
     dependencies:
       '@babel/runtime': 7.29.2
       highlight.js: 10.7.3
       highlightjs-vue: 1.0.0
       lowlight: 1.20.0
       prismjs: 1.30.0
-      react: 19.2.4
+      react: 19.2.5
       refractor: 5.0.0
 
-  react-visibility-sensor@5.1.1(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  react-visibility-sensor@5.1.1(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
     dependencies:
       prop-types: 15.8.1
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
+      react: 19.2.5
+      react-dom: 19.2.5(react@19.2.5)
 
-  react@19.2.4: {}
+  react@19.2.5: {}
 
   readable-stream@1.1.14:
     dependencies:
@@ -5875,10 +5875,10 @@ snapshots:
     dependencies:
       inline-style-parser: 0.2.7
 
-  styled-jsx@5.1.6(@babel/core@7.29.0)(react@19.2.4):
+  styled-jsx@5.1.6(@babel/core@7.29.0)(react@19.2.5):
     dependencies:
       client-only: 0.0.1
-      react: 19.2.4
+      react: 19.2.5
     optionalDependencies:
       '@babel/core': 7.29.0
 
